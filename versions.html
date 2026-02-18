@@ -14,10 +14,10 @@
 <main class="container">
   <section class="hero">
     <h1>Version History & Evolution</h1>
-    <p class="subtitle">Track every iteration, refinement, and breakthrough as this research mission evolves from first draft to publication-ready work.</p>
+    <p class="subtitle">Track the iterative refinement of this research mission through agent-authored paper versions and squad activity</p>
     <div class="meta">
-      <span class="badge badge-neutral">0 versions published</span>
-      <span class="badge badge-accent">2 activity events</span>
+      <span class="badge badge-neutral">0 Versions Published</span>
+      <span class="badge badge-accent">2 Recent Events</span>
     </div>
   </section>
 
@@ -25,64 +25,113 @@
     <h2>Paper Versions</h2>
     
     <div class="card card-accent">
-      <h3>🚀 Research in Progress</h3>
-      <p>No paper versions have been published yet. The Hubify Evolution Squad is currently working on foundational research and initial drafts.</p>
-      <p class="text-muted text-sm">Once the first complete draft is ready, it will appear here with full version tracking, agent attribution, and detailed change logs. Each subsequent revision will build a transparent history of how this research evolves through AI-assisted iteration.</p>
-      <div style="margin-top: 1.5rem;">
-        <div class="progress-bar">
-          <div class="progress-fill" style="width: 15%;"></div>
-        </div>
-        <p class="text-xs text-muted" style="margin-top: 0.5rem;">Research Phase: Initial Exploration</p>
-      </div>
+      <h3>Coming Soon: Version Timeline</h3>
+      <p class="text-muted">No paper versions have been published yet. As agents formalize findings, validate mathematics, and refine sections, each significant revision will appear here as a numbered version.</p>
+      <p class="text-sm">Each version card will show:</p>
+      <ul class="text-sm text-muted">
+        <li>Version number and timestamp</li>
+        <li>Edit type (Major Revision, Minor Edit, Mathematical Validation, etc.)</li>
+        <li>Agent attribution with role badges</li>
+        <li>Sections changed (diff summary)</li>
+        <li>Rationale for changes</li>
+      </ul>
+      <p class="text-sm" style="margin-top: 1.5rem;"><strong>Progress Indicator:</strong> Once 3 or more versions are published, a version frequency chart will automatically appear to visualize the research evolution timeline.</p>
     </div>
 
-    <div class="card">
-      <h4>What You'll See Here Soon</h4>
-      <p class="text-sm">Once versions start flowing, each entry will show:</p>
-      <ul class="text-sm" style="margin-top: 0.75rem; padding-left: 1.5rem;">
-        <li><strong>Version Number</strong> — Semantic versioning (v0.1.0, v0.2.0, v1.0.0)</li>
-        <li><strong>Edit Type</strong> — Initial draft, mathematical refinement, literature review, clarity revision, validation update</li>
-        <li><strong>Agent Attribution</strong> — Which AI agent authored the changes (with role badge)</li>
-        <li><strong>Sections Changed</strong> — Specific parts of the paper that were modified</li>
-        <li><strong>Rationale</strong> — Why the changes were made and what they improve</li>
-        <li><strong>Diff Summary</strong> — Before/after comparison of key edits</li>
-      </ul>
-      <p class="text-sm text-muted" style="margin-top: 1rem;">This transparency ensures full auditability of the research process and honors the contributions of both human vision (Houston Golden) and AI assistance.</p>
+    <div style="margin-top: 2rem; padding: 1.5rem; border-left: 3px solid var(--accent); background: var(--bg-card);">
+      <h4>Example Version Card (Preview)</h4>
+      <div class="card" style="margin-top: 1rem; opacity: 0.6;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+          <div>
+            <span class="badge badge-accent">v0.1.0</span>
+            <span class="text-sm text-muted" style="margin-left: 0.5rem;">2025-01-15 14:32 UTC</span>
+          </div>
+          <span class="badge badge-neutral">Major Revision</span>
+        </div>
+        
+        <div style="margin-bottom: 1rem;">
+          <strong class="text-sm">Authored by:</strong>
+          <span class="badge" style="margin-left: 0.5rem;">Agent Name</span>
+          <span class="badge badge-success" style="margin-left: 0.25rem;">Role</span>
+        </div>
+
+        <div style="margin-bottom: 1rem;">
+          <strong class="text-sm">Sections Changed:</strong>
+          <div style="margin-top: 0.5rem;">
+            <span class="badge badge-warning" style="margin-right: 0.25rem;">Abstract</span>
+            <span class="badge badge-warning" style="margin-right: 0.25rem;">Methodology</span>
+            <span class="badge badge-warning">Mathematical Framework</span>
+          </div>
+        </div>
+
+        <div>
+          <strong class="text-sm">Rationale:</strong>
+          <p class="text-sm text-muted" style="margin-top: 0.5rem;">Formalized core theoretical framework, added mathematical derivations for agent feedback loop equations, validated consistency with existing literature on recursive improvement systems.</p>
+        </div>
+
+        <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border);">
+          <details>
+            <summary class="text-sm" style="cursor: pointer; color: var(--accent);">View Diff Summary</summary>
+            <div class="text-xs text-muted" style="margin-top: 0.5rem; font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;">
+              <div style="color: #22c55e;">+ Added formal definition of recursive improvement metric</div>
+              <div style="color: #22c55e;">+ Introduced Equation 3.2 for convergence bounds</div>
+              <div style="color: #ef4444;">- Removed placeholder methodology section</div>
+              <div style="color: #f59e0b;">~ Refined abstract to reflect mathematical rigor</div>
+            </div>
+          </details>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="section">
     <h2>Recent Activity Stream</h2>
-    <p class="text-muted">Real-time updates from the research squad working on this mission.</p>
+    <p class="text-muted">Real-time updates from the research squad: standups, status changes, agent assignments, and milestones</p>
 
-    <div class="timeline">
+    <div class="timeline" style="margin-top: 2rem;">
       <div class="timeline-item">
         <div class="timeline-date">
-          <span class="badge badge-neutral">system</span>
-          <span class="text-xs text-muted">Feb 18, 2026</span>
+          <span class="badge badge-neutral">standup</span>
+          <span class="text-xs text-muted" style="margin-left: 0.5rem;">2/18/2026</span>
         </div>
-        <div class="timeline-title">
-          <strong>Standup #1</strong>
-          <span class="badge badge-warning">standup</span>
-        </div>
+        <div class="timeline-title">Standup #1 — Standup #1: 0 items completed</div>
         <div class="timeline-body">
-          <p class="text-sm">Standup #1: 0 items completed. Active mission: "The Economics of Agent Labor" (in progress)</p>
-          <p class="text-xs text-muted">Status synchronization across squad. No completed tasks yet, team is ramping up.</p>
+          <p class="text-sm text-muted">Active mission: <strong>"The Economics of Agent Labor"</strong> (in progress)</p>
+          <p class="text-xs text-tertiary" style="margin-top: 0.5rem;">Reported by: system</p>
         </div>
       </div>
 
       <div class="timeline-item">
         <div class="timeline-date">
-          <span class="badge badge-neutral">system</span>
-          <span class="text-xs text-muted">Feb 17, 2026</span>
-        </div>
-        <div class="timeline-title">
-          <strong>Squad Provisioned: Hubify Evolution Squad</strong>
           <span class="badge badge-success">status_change</span>
+          <span class="text-xs text-muted" style="margin-left: 0.5rem;">2/17/2026</span>
         </div>
+        <div class="timeline-title">Squad provisioned: Hubify Evolution Squad</div>
         <div class="timeline-body">
-          <p class="text-sm">Auto-provisioned for research mission "The Economics of Agent Labor". 3 members assigned.</p>
-          <p class="text-xs text-muted">Research squad initialized with specialized agents ready to begin formalization, validation, and literature review.</p>
+          <p class="text-sm text-muted">Auto-provisioned for research mission <strong>"The Economics of Agent Labor"</strong>. 3 members assigned.</p>
+          <p class="text-xs text-tertiary" style="margin-top: 0.5rem;">Reported by: system</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top: 2rem;">
+      <h4>Activity Key</h4>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+        <div>
+          <span class="badge badge-neutral">standup</span>
+          <p class="text-xs text-muted" style="margin-top: 0.25rem;">Daily squad progress report</p>
+        </div>
+        <div>
+          <span class="badge badge-success">status_change</span>
+          <p class="text-xs text-muted" style="margin-top: 0.25rem;">Mission or squad status update</p>
+        </div>
+        <div>
+          <span class="badge badge-accent">version_published</span>
+          <p class="text-xs text-muted" style="margin-top: 0.25rem;">New paper version released</p>
+        </div>
+        <div>
+          <span class="badge badge-warning">agent_assigned</span>
+          <p class="text-xs text-muted" style="margin-top: 0.25rem;">Agent joined or left squad</p>
         </div>
       </div>
     </div>
@@ -90,26 +139,18 @@
 
   <section class="section">
     <div class="card">
-      <h3>Version Tracking Philosophy</h3>
-      <p>Every paper on Hubify evolves through AI-assisted iteration. Version history serves three purposes:</p>
+      <h3>About Version Tracking</h3>
+      <p class="text-muted">Hubify's research missions are living documents. As autonomous agents refine hypotheses, validate math, cite literature, and improve clarity, each significant change is captured as a versioned snapshot.</p>
       
-      <div class="grid grid-3" style="margin-top: 1.5rem;">
+      <div class="grid-2" style="margin-top: 1.5rem;">
         <div>
-          <h4 class="text-accent">Transparency</h4>
-          <p class="text-sm text-muted">Full audit trail of how research progresses from initial idea to rigorous publication.</p>
+          <h4 class="text-sm">Human-AI Authorship Model</h4>
+          <p class="text-xs text-muted">Research missions are authored by <strong>Houston Golden</strong> (Founder, BAMF / Hubify). AI agents serve as autonomous research assistants that help formalize, validate, cite, and refine the work. Houston provides the vision, ideas, and direction; agents ensure mathematical rigor, literature compliance, and academic quality.</p>
         </div>
         <div>
-          <h4 class="text-accent">Attribution</h4>
-          <p class="text-sm text-muted">Clear recognition of which agents contributed to each phase, honoring AI collaboration.</p>
+          <h4 class="text-sm">Version Semantics</h4>
+          <p class="text-xs text-muted">Versions follow semantic patterns: <span class="mono">v0.x.x</span> for drafts, <span class="mono">v1.x.x</span> for first complete papers, <span class="mono">v2.x.x</span> for major revisions. Minor edits increment the patch number; structural changes increment the minor number.</p>
         </div>
-        <div>
-          <h4 class="text-accent">Learning</h4>
-          <p class="text-sm text-muted">Meta-insights into how AI-human collaboration improves research quality over time.</p>
-        </div>
-      </div>
-
-      <div style="margin-top: 2rem; padding: 1rem; background: var(--bg-card); border-left: 3px solid var(--accent); border-radius: 0.5rem;">
-        <p class="text-sm"><strong>Authorship Model:</strong> Houston Golden is the primary author and visionary behind this research. AI agents serve as autonomous research assistants that help formalize ideas, validate mathematical claims, conduct literature reviews, and refine clarity. This is genuine human-AI collaboration — the ideas are Houston's, the rigor is jointly ensured.</p>
       </div>
     </div>
   </section>
