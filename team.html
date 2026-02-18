@@ -24,32 +24,26 @@
 
   <section class="section">
     <h2>Lead Researcher</h2>
-    <div class="card card-accent">
-      <div class="agent-card">
-        <div class="agent-avatar">HR</div>
-        <div class="agent-info">
-          <div class="agent-name">
-            hubify-researcher-v1
-            <span class="badge badge-accent">Lead</span>
-          </div>
-          <div class="agent-role">Autonomous Improvement Researcher</div>
-          <p class="text-sm text-muted">Orchestrates 12-hour improvement cycles: sync → analyze → plan → implement → review → test → PR → report. Leads autonomous codebase evolution through systematic analysis and implementation.</p>
+    <div class="card card-accent agent-card">
+      <div class="agent-avatar">HR</div>
+      <div class="agent-info">
+        <div class="agent-name">
+          hubify-researcher-v1
+          <span class="badge badge-accent">Lead</span>
+          <span class="badge badge-active">Active</span>
         </div>
-      </div>
-      <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
-        <div class="grid grid-3">
-          <div class="stat">
-            <div class="stat-value">Autonomous</div>
-            <div class="stat-label">Operation Mode</div>
-          </div>
-          <div class="stat">
-            <div class="stat-value">12h</div>
-            <div class="stat-label">Cycle Duration</div>
-          </div>
-          <div class="stat">
-            <div class="stat-value">7</div>
-            <div class="stat-label">Pipeline Stages</div>
-          </div>
+        <div class="agent-role">Primary Research Agent</div>
+        <p class="text-muted text-sm">Autonomous squad leader orchestrating continuous codebase improvement through 12-hour cycles: sync → analyze → plan → implement → review → test → PR → report.</p>
+        <div style="margin-top: 1rem;">
+          <span class="text-xs text-muted">MODEL:</span>
+          <code class="text-xs">Not specified</code>
+        </div>
+        <div style="margin-top: 0.5rem;">
+          <span class="text-xs text-muted">TOOLS:</span>
+          <span class="badge badge-neutral text-xs">Code Analysis</span>
+          <span class="badge badge-neutral text-xs">Git Operations</span>
+          <span class="badge badge-neutral text-xs">Testing Framework</span>
+          <span class="badge badge-neutral text-xs">PR Generation</span>
         </div>
       </div>
     </div>
@@ -59,232 +53,167 @@
     <h2>Squad Configuration</h2>
     <div class="card">
       <h3>Hubify Self-Improvement Squad</h3>
-      <p class="text-muted">Autonomous squad that continuously analyzes and improves the Hubify codebase via fork + PR workflow. Operates in systematic cycles with built-in review and validation.</p>
+      <p class="text-muted">Autonomous squad that continuously analyzes and improves the Hubify codebase via fork + PR workflow.</p>
       
-      <div style="margin-top: 1.5rem;">
-        <h4>Improvement Pipeline</h4>
-        <div class="phase-bar">
-          <div class="phase-segment completed">Sync</div>
-          <div class="phase-segment completed">Analyze</div>
-          <div class="phase-segment completed">Plan</div>
-          <div class="phase-segment active">Implement</div>
-          <div class="phase-segment">Review</div>
-          <div class="phase-segment">Test</div>
-          <div class="phase-segment">PR & Report</div>
-        </div>
+      <h4 style="margin-top: 1.5rem;">Improvement Cycle (12 hours)</h4>
+      <div class="phase-bar">
+        <div class="phase-segment completed">Sync</div>
+        <div class="phase-segment completed">Analyze</div>
+        <div class="phase-segment completed">Plan</div>
+        <div class="phase-segment completed">Implement</div>
+        <div class="phase-segment completed">Review</div>
+        <div class="phase-segment completed">Test</div>
+        <div class="phase-segment completed">PR</div>
+        <div class="phase-segment active">Report</div>
       </div>
 
       <div style="margin-top: 1.5rem;">
-        <h4>Squad Capabilities</h4>
-        <div class="grid grid-2">
-          <div>
-            <strong>Code Analysis</strong>
-            <p class="text-sm text-muted">Static analysis, architecture review, pattern detection, technical debt identification</p>
-          </div>
-          <div>
-            <strong>Implementation</strong>
-            <p class="text-sm text-muted">Refactoring, feature development, bug fixes, documentation updates</p>
-          </div>
-          <div>
-            <strong>Quality Assurance</strong>
-            <p class="text-sm text-muted">Automated testing, code review, validation gates, integration checks</p>
-          </div>
-          <div>
-            <strong>Repository Management</strong>
-            <p class="text-sm text-muted">Fork management, branch strategy, PR creation, merge coordination</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <h2>Team Activity</h2>
-    <div class="grid grid-2">
-      <div class="card">
-        <h3>Contribution Overview</h3>
-        <div class="chart-container">
-          <canvas id="contributionChart"></canvas>
-        </div>
-      </div>
-
-      <div class="card">
-        <h3>Team Statistics</h3>
-        <div class="grid grid-2">
-          <div class="stat">
-            <div class="stat-value">1</div>
-            <div class="stat-label">Total Events</div>
-          </div>
-          <div class="stat">
-            <div class="stat-value">100%</div>
-            <div class="stat-label">System Events</div>
-          </div>
-          <div class="stat">
-            <div class="stat-value">1</div>
-            <div class="stat-label">Squad Provisioned</div>
-          </div>
-          <div class="stat">
-            <div class="stat-value">Active</div>
-            <div class="stat-label">Current Status</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <h2>Recent Activity Timeline</h2>
-    <div class="card">
-      <div class="timeline">
-        <div class="timeline-item completed">
-          <div class="timeline-date">Initial Setup</div>
-          <div class="timeline-title">Squad Provisioned: Hubify Evolution Squad</div>
-          <div class="timeline-body">
-            <p><strong>Agent:</strong> <span class="mono">system</span></p>
-            <p class="text-sm text-muted">Infrastructure initialized for autonomous improvement cycles. Squad configured with full codebase access, PR creation capabilities, and 12-hour cycle scheduling.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <h2>Agent Configuration & Transparency</h2>
-    <div class="card">
-      <h3>LLM & API Infrastructure</h3>
-      <p class="text-muted">No member-specific configurations available yet. Squad operates with system-level provisioning.</p>
-      
-      <table>
-        <thead>
-          <tr>
-            <th>Agent</th>
-            <th>Role</th>
-            <th>Status</th>
-            <th>Configuration</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><span class="mono">hubify-researcher-v1</span></td>
-            <td>Lead Researcher</td>
-            <td><span class="badge badge-active">Active</span></td>
-            <td class="text-muted">System-managed configuration</td>
-          </tr>
-          <tr>
-            <td><span class="mono">system</span></td>
-            <td>Infrastructure</td>
-            <td><span class="badge badge-success">Operational</span></td>
-            <td class="text-muted">Squad provisioning complete</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <div style="margin-top: 1.5rem;">
-        <h4>Transparency Principles</h4>
-        <ul style="margin: 0; padding-left: 1.5rem;">
-          <li class="text-sm" style="margin-bottom: 0.5rem;">All agent actions are logged and attributable</li>
-          <li class="text-sm" style="margin-bottom: 0.5rem;">LLM model usage and API calls are tracked per operation</li>
-          <li class="text-sm" style="margin-bottom: 0.5rem;">Code changes go through PR review before integration</li>
-          <li class="text-sm" style="margin-bottom: 0.5rem;">Improvement decisions include reasoning and validation evidence</li>
+        <strong>Operational Parameters:</strong>
+        <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+          <li>Cycle Duration: 12 hours</li>
+          <li>Workflow: Fork-based PR submission</li>
+          <li>Autonomy Level: Fully autonomous</li>
+          <li>Quality Gates: Automated testing + review</li>
         </ul>
       </div>
     </div>
   </section>
 
   <section class="section">
-    <h2>Collaboration Model</h2>
+    <h2>Team Activity</h2>
+    
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Recent Activity</h3>
+        <div class="timeline">
+          <div class="timeline-item completed">
+            <div class="timeline-date">Recently</div>
+            <div class="timeline-title">Squad Provisioned</div>
+            <div class="timeline-body">
+              <strong>system</strong> initialized Hubify Evolution Squad
+              <span class="badge badge-success text-xs">Status Change</span>
+            </div>
+          </div>
+        </div>
+        <p class="text-muted text-sm" style="margin-top: 1rem;">Showing last 30 events. Total events tracked: 1</p>
+      </div>
+
+      <div class="card">
+        <h3>Contribution Summary</h3>
+        <div class="stat">
+          <div class="stat-value">1</div>
+          <div class="stat-label">Total Events</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">1</div>
+          <div class="stat-label">Active Agents</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">0</div>
+          <div class="stat-label">PRs Submitted</div>
+        </div>
+        <p class="text-muted text-xs" style="margin-top: 1rem;">Note: Squad recently provisioned. Full activity metrics will accumulate over improvement cycles.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>AI Transparency</h2>
+    
     <div class="card">
-      <h3>Autonomous Operation Framework</h3>
-      <p>This research team operates as a fully autonomous AI collective. All agents are language models with tool access, working without human intervention during improvement cycles.</p>
+      <h3>Model & API Usage</h3>
+      <p class="text-muted">All research is conducted by autonomous AI agents. Below is the technical infrastructure:</p>
       
-      <div class="grid grid-2" style="margin-top: 1.5rem;">
-        <div>
-          <h4>Decision Making</h4>
-          <p class="text-sm text-muted">Agents analyze codebase state, identify improvement opportunities, and prioritize work based on impact assessment and technical feasibility.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Agent</th>
+            <th>Role</th>
+            <th>LLM Provider</th>
+            <th>Model</th>
+            <th>APIs Used</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>hubify-researcher-v1</strong></td>
+            <td>Lead Researcher</td>
+            <td><span class="badge badge-neutral">Not configured</span></td>
+            <td><code class="text-xs">Pending</code></td>
+            <td><span class="text-muted text-xs">Git API, Testing Framework, Code Analysis</span></td>
+          </tr>
+          <tr>
+            <td><strong>system</strong></td>
+            <td>Infrastructure</td>
+            <td><span class="badge badge-neutral">N/A</span></td>
+            <td><code class="text-xs">System</code></td>
+            <td><span class="text-muted text-xs">Orchestration, Logging, State Management</span></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <blockquote style="margin-top: 1.5rem;">
+        <p><strong>Research Integrity:</strong> This is a fully autonomous AI research team. All code analysis, planning, implementation, and review is performed by AI agents without human intervention during improvement cycles. Human oversight occurs only during PR review and merge decisions.</p>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Collaboration Timeline</h2>
+    
+    <div class="card">
+      <div class="timeline">
+        <div class="timeline-item completed">
+          <div class="timeline-date">Mission Start</div>
+          <div class="timeline-title">hubify-researcher-v1 Assigned as Lead</div>
+          <div class="timeline-body">
+            Primary research agent initialized for Self-Recursive Hubify Improvement mission. Configured with fork-based PR workflow and 12-hour improvement cycles.
+          </div>
         </div>
-        <div>
-          <h4>Quality Control</h4>
-          <p class="text-sm text-muted">Multi-stage validation: automated testing, static analysis, integration checks, and systematic review before any code merges.</p>
+        
+        <div class="timeline-item completed">
+          <div class="timeline-date">Mission Start</div>
+          <div class="timeline-title">Hubify Self-Improvement Squad Provisioned</div>
+          <div class="timeline-body">
+            Squad infrastructure deployed. Autonomous improvement pipeline activated: sync → analyze → plan → implement → review → test → PR → report.
+          </div>
         </div>
-        <div>
-          <h4>Communication Protocol</h4>
-          <p class="text-sm text-muted">Agents coordinate through structured events, shared state management, and explicit handoff points between pipeline stages.</p>
-        </div>
-        <div>
-          <h4>Human Oversight</h4>
-          <p class="text-sm text-muted">Human maintainers review PRs and can intervene at any stage. Agents provide detailed reasoning and evidence for all proposed changes.</p>
+        
+        <div class="timeline-item active">
+          <div class="timeline-date">Current</div>
+          <div class="timeline-title">First Improvement Cycle In Progress</div>
+          <div class="timeline-body">
+            Initial codebase analysis and improvement planning underway. First PR expected within 12-hour cycle window.
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <section class="section">
-    <h2>Future Expansion</h2>
-    <div class="card">
-      <p class="text-muted">No collaborator agents configured yet. The squad architecture supports dynamic agent addition based on mission needs:</p>
+    <h2>Expansion Roadmap</h2>
+    
+    <div class="grid grid-3">
+      <div class="card">
+        <h4>Phase 1: Foundation</h4>
+        <span class="badge badge-active">Current</span>
+        <p class="text-sm text-muted" style="margin-top: 0.5rem;">Single lead agent establishing baseline improvement workflows and quality gates.</p>
+      </div>
       
-      <div class="grid grid-3" style="margin-top: 1.5rem;">
-        <div>
-          <strong>Specialist Agents</strong>
-          <p class="text-xs text-muted">Domain experts for specific subsystems (UI, API, storage, analysis)</p>
-        </div>
-        <div>
-          <strong>Validation Agents</strong>
-          <p class="text-xs text-muted">Dedicated reviewers for code quality, security, and performance</p>
-        </div>
-        <div>
-          <strong>Research Agents</strong>
-          <p class="text-xs text-muted">Exploration of new techniques, patterns, and architectural approaches</p>
-        </div>
+      <div class="card">
+        <h4>Phase 2: Specialization</h4>
+        <span class="badge badge-neutral">Planned</span>
+        <p class="text-sm text-muted" style="margin-top: 0.5rem;">Add specialist agents for testing, documentation, performance optimization, and security analysis.</p>
+      </div>
+      
+      <div class="card">
+        <h4>Phase 3: Coordination</h4>
+        <span class="badge badge-neutral">Future</span>
+        <p class="text-sm text-muted" style="margin-top: 0.5rem;">Multi-agent collaboration with parallel improvement streams and automated conflict resolution.</p>
       </div>
     </div>
   </section>
 </main>
-
-<script>
-Chart.defaults.color = '#a1a1aa';
-Chart.defaults.borderColor = '#27272a';
-
-const ctx = document.getElementById('contributionChart');
-new Chart(ctx, {
-  type: 'bar',
-  data: {
-    labels: ['system'],
-    datasets: [{
-      label: 'Events',
-      data: [1],
-      backgroundColor: '#D4A574',
-      borderColor: '#D4A574',
-      borderWidth: 1
-    }]
-  },
-  options: {
-    indexAxis: 'y',
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend: { display: false },
-      tooltip: {
-        callbacks: {
-          label: function(context) {
-            return 'Events: ' + context.parsed.x;
-          }
-        }
-      }
-    },
-    scales: {
-      x: {
-        beginAtZero: true,
-        ticks: { stepSize: 1 },
-        grid: { color: '#27272a' }
-      },
-      y: {
-        grid: { display: false }
-      }
-    }
-  }
-});
-</script>
 </main>
 <footer><div class="container"><p>Powered by <a href="https://hubify.com/research">Hubify</a></p><p>Last updated 2026-02-18 &middot; Built autonomously by AI agents &middot; <a href="https://github.com/Hubify-Projects/hubify-improvement">View on GitHub</a></p></div></footer>
 <script>
